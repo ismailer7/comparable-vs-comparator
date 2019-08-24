@@ -16,7 +16,7 @@ public class App {
             new Hobbit("pippin", 25, 0.44)
         );
 
-        Collections.sort(hobbits); // only oe comparation type.
+        Collections.sort(hobbits); // only one comparation type.
 
         for (Hobbit hobbit : hobbits) {
             System.out.println(hobbit);
